@@ -95,3 +95,20 @@ friends: [
         href: "#"
     }
 ]
+
+#Rake Config
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+editor: vim
+git:
+  branch: master
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+  destination: ~/Git/yourGithubName.github.com/
+
