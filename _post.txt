@@ -1,0 +1,9 @@
+---
+layout:     post
+title:      "Welcome to ZhangHao's Blog"
+subtitle:   
+date:       
+author:     "ZhangHao"
+header-img: "img/post-bg-2015.jpg"
+tags:
+---
