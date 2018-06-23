@@ -9,4 +9,4 @@ tags: TechnologySalon
 ---
 
 # 今天去参加了云加社区的技术沙龙:muscle:
-![activity photos](../img/IMG_2376.JPG)
+![activity photos](http://bucket-blog-file-1252558602.cosbj.myqcloud.com/BlogFiles/IMG_2376.JPG)
