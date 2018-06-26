@@ -10,7 +10,7 @@ tags: open-source-license
 # 开源许可证GPL、BSD、MIT、Mozilla、Apache和LGPL的区别!
 [原文链接](http://www.geek-workshop.com/thread-1860-1-1.html)<br>
 首先借用有心人士的一张相当直观清晰的图来划分各种协议：开源许可证GPL、BSD、MIT、Mozilla、Apache和LGPL的区别
-![photo](../img/in-post/bg2011050101.png)
+![photo](http://bucket-blog-file-1252558602.cosbj.myqcloud.com/BlogFiles/bg2011050101.png)
 以下是上述协议的简单介绍：
 ## BSD开源协议
 BSD开源协议是一个给于使用者很大自由的协议。基本上使用者可以”为所欲为”,可以自由的使用，修改源代码，也可以将修改后的代码作为开源或者专有软件再发布。
