@@ -1,6 +1,6 @@
 ---
 layout: post
-title: macOS远程连接Linux Gnome桌面
+title: macOS通过VNC连接Linux Gnome桌面
 subtitle: Remote desktop service (VNC)
 date: 2018-06-26 22:51:52       
 author: ZhangHao

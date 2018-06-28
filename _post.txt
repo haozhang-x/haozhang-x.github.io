@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      "Welcome to ZhangHao's Blog"
+title:      
 subtitle:   
 date:       
-author:     "ZhangHao"
+author:     张浩
 header-img: "img/post-bg-2015.jpg"
 tags:
 ---
