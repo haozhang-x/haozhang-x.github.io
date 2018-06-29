@@ -1,9 +1,9 @@
 ---
 layout: post
-title: macOS通过VNC连接Linux Gnome桌面
+title: macOS通过VNC连接CentOS7 GNOME 桌面
 subtitle: Remote desktop service (VNC)
 date: 2018-06-26 22:51:52       
-author: ZhangHao
+author: 张浩
 header-img: "img/post-bg-2015.jpg"
 tags: linux
 ---
@@ -67,4 +67,7 @@ netstat -lnt | grep 590*      #查看端口
 ```
 ### 8.通过Finder访问
 打开Finder(访达)
-输入Command+K,输入vnc的地址vnc://mycloudx.cn:5901,然后输入之前通过vncpasswd命令设置的密码，连接成功。出现gnome桌面。
+输入Command+K,输入vnc的地址vnc://ip:5901,然后输入之前通过vncpasswd命令设置的密码，连接成功。出现gnome桌面。
+![img1](http://bucket-blog-file-1252558602.cosbj.myqcloud.com/BlogFiles/centos-vnc-1.png)
+
+![img2](http://bucket-blog-file-1252558602.cosbj.myqcloud.com/BlogFiles/centos-vnc-2.png)
