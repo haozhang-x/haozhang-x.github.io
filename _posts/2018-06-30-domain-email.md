@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 域名邮箱二三事      
+title: 关于域名邮箱   
 subtitle:   
 date: 2018-06-30 16:44:57       
 author: 张浩
@@ -8,7 +8,7 @@ header-img: "img/post-bg-2015.jpg"
 catelog: true
 tags: domain email
 ---
-  最近申请了一个 ___[zhanghao.io](zhanghao.io)___ 的域名，用这个域名做邮箱的感觉会非常酷。
+  最近申请了一个 ___[zhanghao.io](http://zhanghao.io)___ 的域名，用这个域名做邮箱的感觉会非常酷。
 # 域名邮箱的实现方法
   > 自己搭建邮箱服务;<br>
   > 采用支持域名绑定的邮件服务商。
@@ -22,19 +22,19 @@ tags: domain email
 > 后面找到了[__Yandex__](https://yandex.com/)<br>
 ![yandex-mail](http://bucket-blog-file-1252558602.cosbj.myqcloud.com/BlogFiles/yandex.png)
 
-  ### Yandex域名邮箱注册过程
+# Yandex域名邮箱注册过程
   1. 先到[__Yandex__](https://domain.yandex.com/domains_add) 配置域名,<br>
      详细配置过程可参考[Yandex Mail For Domain Support](https://yandex.com/support/domain/migration.html)。
-     
+
      ![yandex-domain-mail](http://bucket-blog-file-1252558602.cosbj.myqcloud.com/BlogFiles/yandex-domain-email.png)
 
   2. 开启App密码登录第三方邮件应用。
 ![enable-app-password](http://bucket-blog-file-1252558602.cosbj.myqcloud.com/BlogFiles/enable-app-password.png)
-  后面我又发现了更好用的[腾讯企业邮箱](https://exmail.qq.com)。
+# 后面我又发现了更好用的[腾讯企业邮箱](https://exmail.qq.com)。
 
   ![exmail](http://bucket-blog-file-1252558602.cosbj.myqcloud.com/BlogFiles/exmail.png)
 
-  ### [腾讯企业邮箱](https://exmail.qq.com)
+  [腾讯企业邮箱](https://exmail.qq.com)
   腾讯企业邮箱分 __免费版__ 和 __专业版__ <br>
   __免费版__ 配置
    >50人帐号上限<br>
