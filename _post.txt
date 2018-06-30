@@ -3,7 +3,8 @@ layout:     post
 title:      
 subtitle:   
 date:       
-author:     张浩
+author: 张浩
 header-img: "img/post-bg-2015.jpg"
+catelog: true
 tags:
 ---
