@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 关于域名邮箱   
+title: 关于我的域名邮箱i@zhanghao.io
 subtitle:   
 date: 2018-06-30 16:44:57       
 author: 张浩
