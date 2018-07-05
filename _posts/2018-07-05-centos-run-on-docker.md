@@ -1,7 +1,7 @@
 ---
 layout: post
 title: centos-run-on-docker     
-subtitle:  在docker上运行centos
+subtitle:  在Docker上运行CentOS
 date: 2018-07-05 22:50:51       
 author: 张浩
 header-img: "img/post-bg-2015.jpg"
