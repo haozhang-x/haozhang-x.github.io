@@ -43,7 +43,7 @@ docker commit 9e1d0b757ffe mycentos:latest
 docker run --cap-add=SYS_ADMIN -ti -e  "container=docker" -v /sys/fs/cgroup:/sys/fs/cgroup mycentos:latest  /usr/sbin/init
 ```
 ![docker-run-centos](/img/in-post/centos-run-on-docker/docker-run-centos.png)
-## 6.登录CentOs
+## 6.登录CentOS
 输入用户root，输入通过passwd root修改的密码
 ![centos-login](/img/in-post/centos-run-on-docker/centos-login.png)
 
