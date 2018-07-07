@@ -8,7 +8,8 @@ header-img: "img/post-bg-2015.jpg"
 catelog: true
 tags: docker
 ---
-==
+# Docker常用的命令
+
 | 命令 | 描述 | 
 | --- | --- | --- | 
 |build|构建一个镜像从Dockerfile中 | 
@@ -23,5 +24,6 @@ tags: docker
 |rmi|移除一个或多个镜像|
 |run|在新容器中运行命令|
 |stop|停止一个或多个运行中的容器|
-==
+
+-------
 
