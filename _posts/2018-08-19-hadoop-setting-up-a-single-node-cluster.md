@@ -59,7 +59,7 @@ ssh-copy-id  localhost
 ```
 6. 配置core-site.xml与hdfs-site.xml<br>
    <b>a.配置core-site.xml</b>
-```
+  ```
   <configuration>
       <property>
           <name>fs.defaultFS</name>
@@ -68,15 +68,15 @@ ssh-copy-id  localhost
   </configuration>
   ```
    <b>b.配置hdfs-site.xml</b>
-     ```
+   ```
   <configuration>
       <property>
           <name>dfs.replication</name>
           <value>1</value>
       </property>
   </configuration>
-   ```
-6. 格式化Namenode启动NameNode
+  ```
+7. 格式化Namenode启动NameNode
 ```
 hdfs namenode -format
 #启动NameNode守护进程和DataNode守护进程
