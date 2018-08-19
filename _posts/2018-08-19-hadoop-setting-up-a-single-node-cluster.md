@@ -57,29 +57,30 @@ source ~/.bash_profile
 ssh-keygen -t rsa
 ssh-copy-id  localhost
 ```
-6. 配置core-site.xml与hdfs-site.xml
+6. 配置core-site.xml与hdfs-site.xml<br>
+   <b>a.配置core-site.xml</b>
 ```
-#配置core-site.xml
   <configuration>
       <property>
           <name>fs.defaultFS</name>
           <value>hdfs://localhost:9000</value>
       </property>
   </configuration>
-#配置hdfs-site.xml
+  ```
+   <b>b.配置hdfs-site.xml</b>
+     ```
   <configuration>
       <property>
           <name>dfs.replication</name>
           <value>1</value>
       </property>
   </configuration>
-```
-
+   ```
 6. 格式化Namenode启动NameNode
 ```
 hdfs namenode -format
 #启动NameNode守护进程和DataNode守护进程
 $HADOOP_HOME/sbin/start-dfs.sh
 #浏览NameNode的Web界面
-NameNode - http://localhost:50070/
+http://localhost:50070/
 ```
