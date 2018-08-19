@@ -15,13 +15,13 @@ tags:
 
 ## 环境准备
 1. CentOS 7.5<br>
-https://www.centos.org/
+[https://www.centos.org](https://www.centos.org)
 2. JDK<br>
 jdk-8u181-linux-x64.rpm
 可到java.oracle.com下载
 3. CDH版本的Hadoop
 [CDH5](http://archive.cloudera.com/cdh5/cdh/5/)<br>
-http://archive.cloudera.com/cdh5/cdh/5/hadoop-latest.tar.gz<br>
+[http://archive.cloudera.com/cdh5/cdh/5/hadoop-latest.tar.gz](http://archive.cloudera.com/cdh5/cdh/5/hadoop-latest.tar.gz)<br>
 
 
 ## 开始安装
@@ -39,17 +39,26 @@ rpm -ql jdk
 ```
 #解压Hadoop
 tar -zxvf  hadoop-latest.tar.gz -C /opt/
-#设置软连接
+```
+3. 设置软连接
+```
 ln -s /opt/hadoop-2.6.0-cdh5.15.0 /opt/hadoop
 ln -s /opt/hadoop/etc/hadoop  /etc/hadoop
-#设置环境变量Path
+```
+4. 设置环境变量Path
+```
 echo 'export HADOOP_HOME=/opt/hadoop' >> ~/.bash_profile
 echo 'export PATH=$HADOOP_HOME/bin:$PATH' >> ~/.bash_profile
 #使用source 或者 . 使环境变量生效
 source ~/.bash_profile
-#配置本机ssh免登陆
+```
+5. 配置本机ssh免登陆
+```
 ssh-keygen -t rsa
 ssh-copy-id  localhost
+```
+6. 配置core-site.xml与hdfs-site.xml
+```
 #配置core-site.xml
   <configuration>
       <property>
@@ -64,7 +73,10 @@ ssh-copy-id  localhost
           <value>1</value>
       </property>
   </configuration>
-#格式化namenode
+```
+
+6. 格式化Namenode启动NameNode
+```
 hdfs namenode -format
 #启动NameNode守护进程和DataNode守护进程
 $HADOOP_HOME/sbin/start-dfs.sh
